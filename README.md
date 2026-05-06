@@ -10,6 +10,7 @@ processes it with Apache Spark, and outputs a summary table with
 average, max, and min closing prices per ticker.
 
 ## Architecture
+
 ```
 stock_prices.csv
 ↓
@@ -19,6 +20,7 @@ Transformations (groupBy, aggregations)
 ↓
 Stock summary output (Parquet)
 ```
+
 ## Stack
 
 - Apache Spark 4.1.1 (PySpark)
